@@ -1,0 +1,321 @@
+.Corechallenges {
+    /* background-color: rgba(30, 56, 92, 0.2); */
+     padding-top: 120px;
+    max-width: 100%;
+    margin-top: -300px;
+    position:relative;
+    overflow: hidden;
+    z-index: 2;
+    
+  
+}
+.Corechallenges-corechallenges{
+    position: absolute;
+    z-index: -1;
+    margin-top: -120px;
+}
+.Corechallenges-headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.Corechallenges .Corechallenges-headercontent h1{
+font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.95px;
+    text-align: center;
+    width: 822px;
+        height: 61px;
+        color:#0065FF;
+
+        
+}
+.Corechallenges .Corechallenges-headercontent h1 span{
+            background: linear-gradient(90deg, #0264F8 0%, #4ECABA 100%);
+            color:#fff;
+}
+.Corechallenges-headercontent p{
+    width: 566px;
+        height: 81px;
+        font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: center;color:#0065FF;
+}
+.Corechallenges-containers .Corechallenges-individualcards{
+
+    margin-right: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.Corechallenges-containers .Corechallenges-individualcards .Corechallenges-groupinfo{
+display: flex;
+gap: 31px;
+justify-content: center;
+align-items: center;
+}
+.Corechallenges-containers .Corechallenges-individualcards hr{
+ 
+        border: 1px solid;
+         border-image-source: linear-gradient(90deg, rgba(100, 231, 165, 0.5) -0.08%, rgba(0, 101, 255, 0.5) -0.07%, rgba(89, 216, 175, 0.5) 99.64%);
+        border-image-slice: 1;
+        width: 1046px;
+            
+            opacity: 0px;
+     
+ }
+.Corechallenges-containers .Corechallenges-individualcards .sno {
+    font-family: Inter;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 36.57px;
+        text-align: left;
+        color:#0065FF;
+        width:38px;
+        height:43px;
+ }
+.Corechallenges-circleImage{
+    width: 565.43px;
+        height: 565.43px;
+       margin-top: 82px;
+         
+}
+
+.Corechallenges-containers .Corechallenges-individualcards img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 65px;
+}
+.Corechallenges-containers .Corechallenges-individualcards h1{
+    font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        text-align: left;
+        max-width: 294px;
+        min-height: 98px;
+}
+
+.Corechallenges-containers .Corechallenges-individualcards p{
+    max-width: 374px;
+    min-height: 135px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-left: 143px;
+    margin-right: 10px;
+}
+
+.Corechallenges-containers
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .Corechallenges-imagecontainer{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /* .Corechallenges-centerarrow{
+    position: absolute;
+    top: 53.5%;
+    left: 48.5%;
+    transform: translate(-100px,-100px);
+
+ } */
+
+ .Corechallenges-centerarrow{
+    position: absolute;
+        top: 56.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    width:78px;
+        height: 78px;
+        
+        padding: 10.86px 16.71px 10.86px 16.71px;
+         border-radius: 83.53px;
+        opacity: 0px;
+        background-color: #0065FF ;
+        color: #fff;
+ }
+.Corechallenges-message{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-end;
+ 
+    align-items: center;
+    gap: 5px;
+    }
+
+ .Corechallenges-message .Corechallenges-message-one{
+    font-family: Poppins;
+        font-size: 30.58px;
+        font-weight: 700;
+        line-height: 33.98px;
+        text-align: center;
+ }
+ .Corechallenges-message .Corechallenges-message-one span{
+    font-family: Poppins;
+        font-size: 30.58px;
+        font-weight: 700;
+        line-height: 33.98px;
+        text-align: center;
+        background: linear-gradient(90deg, #0264F8 0%, #4ECABA 100%);
+        color:#fff;
+        width: 532.09px;
+            height: 33.71px;
+             
+ }
+
+
+.Corechallenges-message .Corechallenges-message-two{
+    margin-top: 27px;
+    font-family: Poppins;
+        font-size: 20.09px;
+        font-weight: 700;
+        line-height: 22.33px;
+        text-align: left;
+        max-width: 133px;
+        min-height: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+            max-width: 400px;
+            gap: 30px;
+}
+ 
+.Corechallenges-message .Corechallenges-message-two span{
+    max-width: 144.97px;
+        min-height: 14.11px;
+         
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .Corechallenges .Corechallenges-headercontent h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        /* Make header text width flexible */
+    }
+
+    .Corechallenges-headercontent p {
+        width: 90%;
+        /* Adjust paragraph width */
+        font-size: 16px;
+    }
+
+    .Corechallenges-containers .Corechallenges-individualcards img {
+        width: 120px;
+        height: 120px;
+        /* Reduce image size */
+    }
+
+    .Corechallenges-containers .Corechallenges-individualcards p {
+        width: 80%;
+        margin-left: 20px;
+        /* Adjust card content for better alignment */
+    }
+
+    .Corechallenges-imagecontainer .Corechallenges-circleImage {
+        width: 450px;
+        height: 450px;
+        /* Reduce size of the circle image */
+    }
+
+    .Corechallenges-message .Corechallenges-message-one {
+        font-size: 24px;
+    }
+
+    .Corechallenges-message .Corechallenges-message-two {
+        font-size: 18px;
+    }
+}
+
+/* Adjustments for small screens (e.g., mobile phones) */
+@media (max-width: 768px) {
+    .Corechallenges .Corechallenges-headercontent h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .Corechallenges-headercontent p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Corechallenges-containers .Corechallenges-individualcards img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Corechallenges-containers .Corechallenges-individualcards p {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .Corechallenges-imagecontainer .Corechallenges-circleImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    .Corechallenges-centerarrow {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        /* Reduce arrow icon size */
+    }
+
+    .Corechallenges-message .Corechallenges-message-one {
+        font-size: 18px;
+    }
+
+    .Corechallenges-message .Corechallenges-message-two {
+        font-size: 16px;
+    }
+}
+
+/* Further adjustments for very small screens (below 480px) */
+@media (max-width: 480px) {
+    .Corechallenges .Corechallenges-headercontent h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .Corechallenges-headercontent p {
+        font-size: 12px;
+    }
+
+    .Corechallenges-containers .Corechallenges-individualcards img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Corechallenges-message .Corechallenges-message-one {
+        font-size: 14px;
+    }
+
+    .Corechallenges-message .Corechallenges-message-two {
+        font-size: 14px;
+    }
+}

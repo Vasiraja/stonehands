@@ -1,0 +1,238 @@
+.Skycards {
+    position: relative;
+    max-width: 100%;
+    margin-top: -260px;
+     
+      
+    
+}
+
+ 
+
+.Skycards-skyview {
+    position: absolute;
+    width: 100%;
+    height: 1329px;
+    top: 0;
+    left: 0;
+    padding-right: -20px;
+
+    
+    z-index: -2;
+}
+
+.Skycards-buildingviews {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.Skycards-buildingview1,
+.Skycards-buildingview2 {
+    position: absolute;
+    max-width: 810px;
+}
+
+.Skycards-buildingview1 {
+    top: 20px;
+    left: 0;
+}
+
+.Skycards-buildingview2 {
+    top: 100px;
+    left: 50px;
+}
+
+.Skycards .Skycards-groupcontainers {
+             position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1240px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards {
+    max-width: 862px;
+    width: 100%;
+    min-height: 517px;
+    height: 100%;
+    display: flex;
+    gap: 60px;
+    background-color: #fff;
+    border-radius: 26.2px;
+    margin-left: 270px;
+    margin-top: 380px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-leftcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 60px;
+    padding-top: 86px;
+    color: #0065FF;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-leftcontent h1 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52.39px;
+    text-align: left;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-leftcontent p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 443px;
+    min-height: 93px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-leftcontent button {
+    width: 110px;
+    height: 31.43px;
+    padding: 8.13px 12.5px;
+    border-radius: 62.52px;
+    background: linear-gradient(90deg, #64E7A5 -31.21%, #0065FF 138.18%);
+    font-family: Poppins;
+    font-size: 8.64px;
+    font-weight: 400;
+    line-height: 12.95px;
+    text-align: left;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.Skycards-buildingviews img {
+    margin-top: 500px;
+    max-width: 100%;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 47px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent li {
+    list-style: none;
+    display: flex;
+    max-width: 266px;
+    gap: 20px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent li img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #64E7A5;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent p {
+    width: 161.67px;
+    height: 53.89px;
+    font-family: Poppins;
+    font-size: 18.71px;
+    font-weight: 700;
+    line-height: 22.81px;
+    text-align: left;
+    color: #0065FF;
+}
+
+.Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent hr {
+    max-width: 330px;
+    height: 2px;
+    border: none;
+    margin: 20px 0;
+    z-index: 3;
+}
+.Skycards-basementview{
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+.Skycards-basementview img {
+    max-width: 100%;
+    margin-right: -10px;
+}
+.Skycards-curve{
+ position: relative;    
+    max-width:4214px;
+    width:100%;
+    margin-right: 50%;
+    min-height: 404px;
+    background-color: #707781;
+    z-index: -1;
+
+    margin-top: -250px;
+    border-radius: 60%;
+
+    
+}
+ @media (max-width: 768px) {
+    .Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent hr {
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Skycards-groupcontainers .Skycards-individualSkycards .Skycards-rightcontent hr {
+        max-width: 200px;
+    }
+}
+
+.Skycards-individualSkycards {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.Skycards-dotnavigation {
+    position: absolute;
+    bottom: 10px;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+     z-index: 2;
+ }
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #0065FF;
+}
+
+@media(min-width:1400px){
+    .Skycards-groupcontainers .Skycards-individualSkycards{
+        margin-left: 380px;
+    }
+}
+@media(min-width:1700px){
+    .Skycards-groupcontainers .Skycards-individualSkycards{
+        margin-left: 440px;
+    }
+}
+@media(min-width:2000px){
+    .Skycards-groupcontainers .Skycards-individualSkycards{
+        margin-left: 500px;
+    }
+}

@@ -1,0 +1,203 @@
+.Navup {
+    max-width: 100%;
+     height: 102px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+      box-sizing: border-box;
+    white-space: nowrap;
+ }
+
+.Navup .navup-navheader div {
+    margin-left: 20px;
+    max-width: 200px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Navup .navup-navheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Navup .navup-navheader .svgdescription {
+    max-width: 222px;
+    height: 13px;
+}
+
+.svgdescription p {
+    max-width: 100%;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13.47px;
+    margin-bottom: 60px;
+}
+
+.navup-navlist {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+ }
+
+.navup-navlist li {
+    color: var(--primary-blue-color);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navup-navlist li.active {
+   
+     transform: scale(1.2);
+color: #4CC7BC;
+
+}
+
+.Navup .navup-navlist .letsconnectdiv {
+    background-color: #0065FF;
+    color: #fff;
+    max-width: 196px;
+    min-height: 102px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.letsconnectdiv p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Montserrat;
+    width: 130px;
+    height: 22px;
+}
+
+@media (min-width: 1200px) {
+    .navup-navlist {
+        margin-left: auto;
+     }
+
+    .navup-navlist li {
+        font-size: 18px;
+    }
+
+    .letsconnectdiv {
+        width: 220px;
+        min-height: 110px;
+    }
+
+    .letsconnectdiv p {
+        font-size: 16px;
+    }
+                .Navup .navup-navlist .letsconnectdiv {
+                    width: 220px;
+                    min-height: 110px;
+                }
+}
+
+@media (min-width: 1440px) {
+    .Navup {
+        padding: 0 50px;
+        /* Adjust for larger screens */
+    }
+
+    .navup-navlist {
+        gap: 60px;
+    }
+
+    .navup-navlist li {
+        font-size: 20px;
+    }
+
+         .Navup .navup-navlist .letsconnectdiv {
+             width: 250px;
+             min-height: 120px;
+         }
+
+    .letsconnectdiv p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Navup {
+        flex-direction: column;
+        /* Stack items on smaller screens */
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .navup-navlist {
+        margin-left: 0;
+         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navup-navlist li {
+        font-size: 14px;
+        margin: 0 10px;
+     }
+
+        .Navup .navup-navlist .letsconnectdiv {
+            width: auto;
+            min-height: 50px;
+            margin-top: 10px;
+                            padding: 10px;
+        }
+}
+
+@media (max-width: 768px) {
+    .Navup {
+        padding: 5px 10px;
+    }
+
+    .navup-navlist {
+        gap: 20px;
+    }
+
+    .navup-navlist li {
+        font-size: 12px;
+    }
+
+         .Navup .navup-navlist .letsconnectdiv {
+             width: 30%;
+             min-height: 60%;
+                            padding: 10px;
+         }
+}
+
+@media (max-width: 480px) {
+    .navup-navlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navup-navlist li {
+        margin: 5px 0;
+        white-space: normal;
+     }
+
+        @media (max-width: 480px) {
+            .Navup .navup-navlist .letsconnectdiv {
+                width: 100%;
+                padding: 10px;
+            }
+        }}

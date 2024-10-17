@@ -1,0 +1,41 @@
+.Eclipse {
+    width: 100%;
+    
+  }
+
+
+
+
+.Eclipse .Eclipse-imagecontainer {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: -370px;
+    bottom: 30%;
+    width: 170%;
+    max-width: 2000px;
+    min-height: 2000px;
+    background-color: #f3f3f3;
+     border-radius: 50%;
+
+}
+
+
+@media(min-width:1400px) {
+    .Eclipse .Eclipse-imagecontainer {
+        left: -170px;
+
+    }
+
+}
+
+@media(min-width:1700px) {
+    .Eclipse .Eclipse-imagecontainer {
+        left: 0;
+
+    }
+
+}
+
+ 

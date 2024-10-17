@@ -1,0 +1,256 @@
+ 
+
+
+
+.Homepagefooter {
+    max-width: 100%;
+     color: #FFF;
+    background-color: rgba(0, 37, 79, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+
+.Homepagefooter .Homepagefootercontainer {
+    padding-top: 125px;
+    display: flex;
+    gap: 270px;
+}
+
+.homepagefooter-iconcontainer span {
+    font-weight: 25px;
+    color: #fff;
+}
+
+.homepagefooter-otherinfolists {
+    display: flex;
+    gap: 83px;
+    margin-right: 17px;
+}
+
+.homepagefooter-otherinfolists h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10.023px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.035px;
+}
+
+.homepagefooter-otherinfolists ul {
+    list-style: none;
+    margin-left: -32px;
+
+}
+
+.homepagefooter-otherinfolists ul li {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10.023px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.588px;
+    letter-spacing: -0.15px;
+}
+
+.hompagefooter-otherinfolists-address ul li p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 10.023px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 233.879px;
+}
+
+.hompagefooter-otherinfolists-address ul li h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10.023px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.Homepagefooter hr {
+    max-width: 1073px;
+    margin-left: 185px;
+
+}
+
+.homepagefooter-copywritesection {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1072px;
+ 
+}
+
+.homepagefooter-copywritesection p {
+    padding-top: 22.55px;
+    padding-bottom: 60.92px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 9.397px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.035px;
+    letter-spacing: -0.141px;
+}
+
+.break-text {
+    display: none;
+}
+
+@media(min-width:1200px) {
+
+    .Homepagefooter hr {
+        max-width: 1073px;
+        margin-left: 130px;
+
+    }
+
+    .Homepagefooter .Homepagefootercontainer {
+        margin-left: 130px;
+    }
+
+        .Homepagefooter .homepagefooter-copywritesection {
+    
+            width: 83%;
+            margin: 0% 8%;
+    
+        }
+}
+
+@media(max-width:1200px) {
+    .Homepagefooter .Homepagefootercontainer {
+        padding-left: 10%;
+    }
+
+    .Homepagefooter hr {
+        margin: 0% 5%;
+
+    }
+
+         .Homepagefooter .homepagefooter-copywritesection {
+    
+             width: 83%;
+             margin: 0% 8%;
+    
+         }
+}
+
+@media(max-width:1024px) {
+    .Homepagefooter .Homepagefootercontainer {
+        justify-content: center;
+    }
+
+    .Homepagefooter hr {}
+
+    .Homepagefooter .homepagefooter-copywritesection {
+
+        width: 83%;
+        margin: 0% 8%;
+
+    }
+
+    .homepagefooter-otherinfolists {
+        display: flex;
+        gap: 96px;
+        margin-left: -162px;
+    }
+
+}
+
+@media (max-width:970px) {
+    .Homepagefooter .Homepagefootercontainer {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+
+
+    .Homepagefooter .Homepagefootercontainer {
+        gap: 50px;
+        margin: 0px 20px;
+        padding-top: 25px;
+    }
+
+    .homepagefooter-otherinfolists {
+        gap: 120px;
+        margin: 0px;
+    }
+
+
+    .Homepagefooter hr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+
+@media (max-width:760px) {
+
+    .Homepagefooter .homepagefooter-otherinfolists {
+        gap: 40px;
+        width: 40%;
+    }
+
+    .homepagefooter-otherinfolists ul li {
+        white-space: nowrap;
+
+    }
+
+
+
+}
+
+@media (max-width:575px) {
+
+
+    .Homepagefooter .Homepagefootercontainer {
+        margin: 0px;
+    }
+
+    .Homepagefooter .Homepagefootercontainer {
+        padding: 0px 40px;
+    }
+
+    .break-text {
+        display: block;
+    }
+
+
+
+}
+
+@media (max-width:480px) {
+
+    .Homepagefooter .homepagefooter-otherinfolists {
+        gap: 40px;
+        width: 40%;
+    }
+
+    .homepagefooter-otherinfolists ul li {
+        white-space: nowrap;
+
+    }
+
+    .Homepagefooter .Homepagefootercontainer {
+        padding: 0px 10px;
+    }
+
+    .hompagefooter-otherinfolists-address ul li p {
+        word-wrap: wrap;
+    }
+
+
+}

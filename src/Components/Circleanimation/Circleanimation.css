@@ -1,0 +1,78 @@
+.circleanimation-container {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    max-width: 594px;
+    min-height: 594px;
+    z-index: 0;
+    opacity: 0.4;
+    margin-top: 45px;
+    margin-left: 3px;
+
+
+
+ }
+
+.circleanimation-firstone,
+.circleanimation-secondone,
+.circleanimation-thirdone {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circleanimation-firstone {
+    right: 231px;
+    position: relative;
+    bottom: 30px;
+    animation: rotateAnimate;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.circleanimation-secondone {
+    right: 231px;
+    position: relative;
+    bottom: 460px;
+    animation: rotateAnimate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.circleanimation-thirdone {
+    right: 231px;
+    position: relative;
+    bottom: 760px;
+    animation: rotateAnimate;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+}
+
+.circleanimation-firstone {
+    width: 494px;
+    height: 494px;
+}
+
+.circleanimation-secondone {
+    width: 354px;
+    height: 354px;
+}
+
+.circleanimation-thirdone {
+    width: 247px;
+    height: 247px;
+}
+
+
+@keyframes rotateAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

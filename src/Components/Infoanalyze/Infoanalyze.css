@@ -1,0 +1,333 @@
+.Infoanalyze {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+     max-width: 100%;
+     overflow: hidden   ;
+}
+
+.Infoanalyze h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: left;
+    max-width: 648.76px;
+    height: 91.66px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    margin-left: 26px;
+}
+
+.firstinfo-analyze,
+.secondinfo-analyze,
+.thirdinfo-analyze,
+.fourthinfo-analyze,
+.fifthinfo-analyze {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+    background-color: blue;
+    min-height: 126px;
+    width: 100%;
+    padding: 0 20px;
+    gap:400px;
+
+}
+
+.leftside-headline {
+    display: flex;
+    justify-content: center;
+    margin-left: 110px;
+    align-items: center;
+}
+
+.leftside-headline img {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+}
+
+ 
+.quantity-info {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     width: 100%;
+ }
+
+.quantity-info p {
+    font-family: Poppins;
+    font-size: 58.47px;
+    font-weight: 700;
+    line-height: 71.27px;
+    text-align: start;
+     flex-grow: 1;
+  }
+
+.firstinfo-analyze {
+    background: linear-gradient(90deg, #4CC7BC 0%, #1A86E9 100%);
+    display: flex;
+    align-items: center;
+}
+
+.secondinfo-analyze {
+    background: linear-gradient(90deg, #76D1D0 0%, #1A86E9 100%);
+    opacity: 86%;
+}
+
+.thirdinfo-analyze {
+    background: #0065FF;
+}
+
+.fourthinfo-analyze {
+    background: linear-gradient(90deg, #4CC7BC 0%, #1A86E9 100%);
+    opacity: 45%;
+    max-width: 89%;
+}
+
+.fifthinfo-analyze {
+    background: linear-gradient(90deg, #4CC7BC 0%, #1A86E9 100%);
+    opacity: 33%;
+    max-width: 78%;
+}
+
+.infoanalysis-additionalinfocontainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 0;
+ }
+
+.infoanalysis-additionalinfo-left {
+    margin-left: 50px;
+    margin-top: 150px;
+    color: #0065FF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.95px;
+    text-align: left;
+    max-width: 628px;
+    min-height: 305px;
+}
+
+.infoanalysis-additionalinfo-left span {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.95px;
+    text-align: left;
+    background: linear-gradient(90deg, #0264F8 0%, #4ECABA 100%);
+    color: #fff;
+}
+
+.infoanalysis-additionalinfo-left p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    max-width: 566px;
+}
+
+/* New styles for the image vectors */
+.infoanalysis-additionalinfo-right {
+    position: relative;
+
+    margin-right: 20px;
+     margin: 0 auto;
+}
+
+.infoanalysis-additionalinfo-backgroundImage {
+    max-width: 829px;
+    min-height: 997px;
+}
+
+.imageVector,
+.infoanalysis-secondImageVector,
+.infoanalysis-thirdImageVector {
+    position: absolute;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .imageVector {
+    top: 0;
+     left: 0;
+ }
+
+.infoanalysis-secondImageVector {
+    top: 18%;
+    right: 68%;
+    max-width: 332px;
+    min-height: 322px;
+}
+
+.infoanalysis-thirdImageVector {
+    left:80%;
+     top: 0;
+     transform: translateX(-50%);
+    /* Center it correctly */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .infoanalysis-additionalinfocontainer {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: flex-start;
+        /* Align items to the start */
+    }
+
+    .firstinfo-analyze,
+    .secondinfo-analyze,
+    .thirdinfo-analyze,
+    .fourthinfo-analyze,
+    .fifthinfo-analyze {
+        flex-direction: column;
+         align-items: flex-start;
+         gap: 400px;
+        /* Align items to the start */
+        padding: 10px;
+        /* Adjust padding */
+        width: 100%;
+        /* Ensure full width */
+    }
+
+    .leftside-headline {
+        justify-content: flex-end;
+        flex-shrink: 0;
+    }
+
+
+     
+
+    .infoanalysis-additionalinfo-left {
+        margin-left: 20px;
+        /* Adjust left margin for smaller screens */
+        margin-top: 50px;
+        /* Adjust top margin for smaller screens */
+        font-size: 30px;
+        /* Adjust font size */
+        line-height: 40px;
+        /* Adjust line height */
+    }
+
+    .infoanalysis-additionalinfo-right {
+        display: flex;
+        /* Ensure the right section is flexible */
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center align images */
+        margin-top: 20px;
+        /* Add margin */
+    }
+
+    .infoanalysis-additionalinfo-backgroundImage {
+        max-width: 100%;
+        /* Ensure background image fits */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .imageVector,
+    .infoanalysis-secondImageVector,
+    .infoanalysis-thirdImageVector {
+        max-width: 80%;
+        /* Reduce size of vector images */
+        height: auto;
+        /* Maintain aspect ratio */
+        flex-shrink: 0;
+        /* Prevent images from shrinking */
+    }
+}
+
+/* Existing media query for smaller screens */
+@media (max-width: 768px) {
+
+    .firstinfo-analyze,
+    .secondinfo-analyze,
+    .thirdinfo-analyze,
+    .fourthinfo-analyze,
+    .fifthinfo-analyze {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: flex-start;
+        /* Align items to the start */
+        padding: 10px;
+        /* Adjust padding */
+    }
+
+    .leftside-headline {
+        margin-left: 0;
+        /* Reset margin for smaller screens */
+        justify-content: flex-start;
+        /* Align to the start */
+    }
+
+  
+
+    .infoanalysis-additionalinfo-left {
+        margin-left: 20px;
+        /* Adjust left margin for smaller screens */
+        margin-top: 50px;
+        /* Adjust top margin for smaller screens */
+        font-size: 30px;
+        /* Adjust font size */
+        line-height: 40px;
+        /* Adjust line height */
+    }
+
+    .infoanalysis-additionalinfo-right {
+        display: flex;
+        /* Ensure the right section is flexible */
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center align images */
+        margin-top: 20px;
+        /* Add margin */
+    }
+
+    .infoanalysis-additionalinfo-backgroundImage {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imageVector,
+    .infoanalysis-secondImageVector,
+    .infoanalysis-thirdImageVector {
+        max-width: 80%;
+        /* Reduce size of vector images */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+     
+
+    .infoanalysis-additionalinfo-left {
+        font-size: 24px;
+        /* Further reduce font size */
+        line-height: 32px;
+        /* Further reduce line height */
+    }
+
+    .infoanalysis-additionalinfo-left span {
+        font-size: 24px;
+        /* Further reduce font size */
+    }
+
+    .infoanalysis-additionalinfo-left p {
+        font-size: 14px;
+        /* Further reduce font size */
+        line-height: 20px;
+        /* Further reduce line height */
+    }
+}

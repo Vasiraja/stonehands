@@ -1,0 +1,100 @@
+.Projectsspanning{
+    max-width: 100%;
+    margin-top: 128px;
+    overflow: hidden;
+}
+
+.Projectsspanning-locationgroups {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+ }
+.Projectsspanning-headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#0065FF;
+ }
+.Projectsspanning-headercontent h1{
+    font-family: Poppins;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60.95px;
+        text-align: center;
+        max-width: 1095px;
+        min-height: 91px;
+        padding: 0 10px;
+}
+.Projectsspanning-headercontent p{
+    font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        max-width: 993px;
+        min-height: 54px;
+        margin-bottom: 23px;
+}
+.Proectsspanning-individualcards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    max-width: 100%;
+    min-height: 141px;
+    column-gap: 514px;
+    color: #fff;
+}
+
+.Proectsspanning-individualcards h1 {
+    margin-left: 116px;
+    font-family: Poppins;
+    font-size: 41.87px;
+    font-weight: 700;
+    line-height: 51.04px;
+    text-align: left;
+    max-width: 548px;
+    min-height: 42px;
+}
+
+.Proectsspanning-individualcards h2 {
+    font-family: Inter;
+    font-size: 58px;
+     font-weight: 700;
+    line-height: 51.04px;
+     text-align: left;
+    max-width: 560px;
+    min-height: 91px;
+}
+.Projectsspanning-indianmapmarker{
+    position: absolute;
+    top: 10%;
+    left:37%;
+    max-width: 479px;
+    min-height: 521px;
+    width:100%
+}
+.Projectsspanning-indianmapmarker .marker {
+    position: absolute;
+    bottom:0;
+    right:58%;
+
+     
+    
+}
+
+ @media (max-width: 1024px) {
+    .Proectsspanning-individualcards {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .Proectsspanning-individualcards h1,
+    .Proectsspanning-individualcards h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}

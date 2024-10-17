@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Homepage from "./Pages/Homepage";
+
+import Navup from "./Components/Nav-up/Navup";
+ import Infoanalyze from "./Components/Infoanalyze/Infoanalyze";
+import Contactinfocard from "./Components/Contact-infocard/Contactinfocard";
+import Corechallenges from "./Components/Corechallengessection/Corechallenges";
+import Projectsspanning from "./Components/Projects Spanning/Projectsspanning";
+import Articles from "./Components/Articles/Articles";
+import Skycards from "./Components/Skycards/Skycards";
+import Eclipse from "./Components/Ecllipse/Eclipse";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navup />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+
+          <Route path="/nav" element={<Eclipse />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
